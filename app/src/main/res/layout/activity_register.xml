@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Register_Activity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:src="@drawable/logo"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+
+        android:background="@drawable/edittext_background"
+        android:layout_marginTop="10dp"
+        android:id="@+id/Registerusername"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full Name"
+
+        android:background="@drawable/edittext_background"
+        android:layout_marginTop="10dp"
+        android:id="@+id/Registerfullname"
+        android:layout_marginLeft="10dp"
+        android:padding="10dp"
+        android:layout_marginRight="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email adress"
+
+        android:background="@drawable/edittext_background"
+        android:layout_marginTop="10dp"
+        android:id="@+id/Registeremail"
+        android:layout_marginLeft="10dp"
+        android:padding="10dp"
+        android:layout_marginRight="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+
+        android:background="@drawable/edittext_background"
+        android:layout_marginTop="10dp"
+        android:id="@+id/RegisterPassword"
+        android:layout_marginLeft="10dp"
+        android:padding="10dp"
+        android:layout_marginRight="10dp"
+        android:inputType="textPassword"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="LOG IN"
+        android:id="@+id/btnregister"
+        android:background="@drawable/button_background"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/txtregisterSignup"
+        android:text="Don't have an account? Log In"
+        />
+
+</LinearLayout>
